@@ -1,3 +1,11 @@
+# Git Clone 하기 
+1. git 을 install 한다
+2. 전체 dir로 이동한다 ex C:\DGLEE
+3. cd C:\DGLEE
+4. git clone 
+
+
+
 # 제목(Header)
 
 # 제목 1
