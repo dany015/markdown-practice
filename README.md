@@ -1,3 +1,18 @@
+# Nnetlify 사용 하기
+1. netlify login as github
+2.  https://app.netlify.com/sites/dgwebsample/overview
+3.  신규 로 git 의 내용을 연결 하면 됨  https://dgwebsample.netlify.app
+4.  필요시 신규 도메인을 사용 하여 등록 하면 됨
+
+# Git 변경 사항 저장 하기
+1. git status
+2. git add .
+3. git commit -m '로그인 페이지 완성'
+4. git remote add origin https://github.com/dany015/dSunJ  (repository name)
+5. git push origin main
+
+
+
 # Git Clone 하기 
 1. git 을 install 한다
 2. 전체 dir로 이동한다 ex C:\DGLEE
