@@ -2,7 +2,8 @@
 1. git 을 install 한다
 2. 전체 dir로 이동한다 ex C:\DGLEE
 3. cd C:\DGLEE
-4. git clone 
+4. git clone https://github.com/dany015/dSunJ.git
+5. 이후 작업을 진행 한다
 
 
 
