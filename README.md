@@ -1,3 +1,21 @@
+# git File 무시하기
+.git 폴더가 있는 같은 선상에 .gitignore 파일을 만들어 줍니다. 
+ignore(무시하다)의 관리는 .gitignore 파일에서 하는데 예를 들어
+test.txt파일과 test 폴더를 ignore 한다고 가정합니다.
+무시할 파일및 폴더는 아래와 같이 작성해 줍니다.
+### 파일 무시
+test.txt
+
+### 다음과 같은 확장자는 전체 무시
+*.text
+*.exe
+*.zip
+
+### 폴더 무시
+test/
+폴더와 같은 경우 무시하는 폴더 하위의 파일이나 폴더 또한 ignore(무시) 됩니다. .gitignore 파일에서 # 뒤에 쓰는 내용은 주석처리 됩니다.
+출처: https://kcmschool.com/194 [web sprit:티스토리]
+
 # Nnetlify 사용 하기
 1. netlify login as github
 2.  https://app.netlify.com/sites/dgwebsample/overview
