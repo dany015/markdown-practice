@@ -1,10 +1,10 @@
 # Node Server 8099 Setting 하기
-✅ Node.js 서버가 0.0.0.0을 리스닝하는가? (app.listen(8099, '0.0.0.0'))
-✅ Windows 방화벽에서 8099 포트를 허용했는가?
-✅ 8099 포트에서 Node.js가 실행 중인가? (netstat -ano | findstr :8099)
-✅ Windows 네트워크가 "개인" 모드인가?
-✅ 외부에서 curl http://<서버 IP>:8099 요청이 가능한가?
-✅ 공유기에서 포트 포워딩(8099)을 설정했는가? (외부 접근 필요 시
+✅ Node.js 서버가 0.0.0.0을 리스닝하는가? (app.listen(8099, '0.0.0.0'))</br>
+✅ Windows 방화벽에서 8099 포트를 허용했는가?</br>
+✅ 8099 포트에서 Node.js가 실행 중인가? (netstat -ano | findstr :8099)</br>
+✅ Windows 네트워크가 "개인" 모드인가?</br>
+✅ 외부에서 curl http://<서버 IP>:8099 요청이 가능한가?</br>
+✅ 공유기에서 포트 포워딩(8099)을 설정했는가? (외부 접근 필요 시</br>
 
 # git File 무시하기
 .git 폴더가 있는 같은 선상에 .gitignore 파일을 만들어 줍니다. 
